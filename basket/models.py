@@ -13,7 +13,7 @@ class Basket(models.Model):
     actives = BasketActivesManager()
 
     def __str__(self):
-        return self.id
+        return self.user.full_name
 
     @property
     def get_basket_price(self):
