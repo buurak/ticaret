@@ -37,7 +37,7 @@ class Product(models.Model):
     stock = models.PositiveIntegerField()
     price = models.FloatField(null=False, blank=False)
     size = models.CharField(choices=SizeChoices.choices, max_length=255)
-    photo = models.ImageField(max_length=255, null=True, blank=False)
+    photo = models.TextField(max_length=255, null=True, blank=False)
     categories = models.ManyToManyField(
         to=ProductCategory, related_name="products", verbose_name="category"
     )
