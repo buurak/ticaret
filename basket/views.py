@@ -2,6 +2,7 @@ from django.shortcuts import get_object_or_404
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework.permissions import IsAuthenticated
 
 from product.models import Product
 from .models import Basket, BasketItem
@@ -9,6 +10,8 @@ from .serializers import BasketSerializer, BasketItemSerializer, AddItemToBasket
 
 
 class BasketProductAPIView(APIView):
+    permission_classes = (IsAuthenticated,)
+
     def get(self, request):
         qs, _ = Basket.actives.get_or_create(user=self.request.user)
 
