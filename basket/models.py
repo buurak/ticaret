@@ -5,7 +5,7 @@ from .manager import BasketActivesManager
 
 
 class Basket(models.Model):
-    user = models.OneToOneField(to="user.User", on_delete=models.CASCADE, related_name="basket", verbose_name="user")
+    user = models.ForeignKey(to="user.User", on_delete=models.CASCADE, related_name="basket", verbose_name="user")
     date_ordered = models.DateTimeField(auto_now_add=True)
     complete = models.BooleanField(default=False)
 

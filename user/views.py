@@ -18,7 +18,7 @@ class CreateUserAPIView(APIView):
 
             return Response(UserSerializer(user).data, status=status.HTTP_201_CREATED)
 
-        return Response({"message": "There is already an account"}, status=status.HTTP_201_CREATED)
+        return Response({"message": "There is already an account"}, status=status.HTTP_400_BAD_REQUEST)
 
 
 class LoginAPIView(APIView):
@@ -27,4 +27,4 @@ class LoginAPIView(APIView):
         if user.check_password(request.data["password"]):
             return Response(UserSerializer(user).data, status=status.HTTP_200_OK)
 
-        return Response({"status": False}, status=status.HTTP_200_OK)
+        return Response({"message": "Email or password is incorrect!"}, status=status.HTTP_200_OK)

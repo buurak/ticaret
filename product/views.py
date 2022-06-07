@@ -11,8 +11,9 @@ class ProductListView(APIView):
     def get(self, request):
         qs = Product.objects.all()
 
-        if category_id := request.query_params.get("category"):
-            qs.filter(categories=category_id)
+        if category_id := request.query_params.getlist("category"):
+            categories = [int(x) for x in category_id[0].split(",")]
+            qs = qs.filter(categories__in=categories)
 
         serialized_data = ProductListSerializer(qs, many=True).data
 
