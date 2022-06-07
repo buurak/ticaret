@@ -191,7 +191,7 @@ export default {
   methods: {
     getBasket() {
       axios
-        .get("/api/basket/", {
+        .get("http://127.0.0.1:8000/api/basket/", {
           params: {
             user_id: localStorage.getItem("user_id"),
           },
@@ -208,7 +208,7 @@ export default {
 
     checkout() {
       axios
-        .post("/api/order/", {
+        .post("http://127.0.0.1:8000/api/order/", {
           user_id: localStorage.getItem("user_id"),
         })
         .then(() => {

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="acb8525a-f7e7-43f1-8220-3fc1d1390b68" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ticaret.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/migrations/0002_alter_basket_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/migrations/0003_alter_basket_managers_remove_basket_transaction_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/migrations/0004_alter_basket_managers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/migrations/0005_alter_basket_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3.sqbpro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/.idea/djangoProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e-commerce/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e-commerce/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/e-commerce/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e-commerce/src/components/Basket.vue" beforeDir="false" afterPath="$PROJECT_DIR$/e-commerce/src/components/Basket.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e-commerce/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/e-commerce/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e-commerce/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/e-commerce/src/components/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e-commerce/src/components/Product.vue" beforeDir="false" afterPath="$PROJECT_DIR$/e-commerce/src/components/Product.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e-commerce/src/components/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/e-commerce/src/components/Register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/migrations/0002_alter_product_color_alter_product_size.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/migrations/0003_product_photo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/migrations/0004_productcategory_product_categories.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/migrations/0005_alter_productcategory_options_product_price.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/migrations/0006_alter_product_photo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0002_user_is_staff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ADkIaNsYJBBRivGBtZz7Zn6mjy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenDatabaseViewOnStart" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ticaret" type="Python.DjangoServer" factoryName="Django server">
+      <module name="ticaret" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="djangoProject.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="0.0.0.0" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acb8525a-f7e7-43f1-8220-3fc1d1390b68" name="Changes" comment="" />
+      <created>1654551463322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654551463322</updated>
+      <workItem from="1654551465175" duration="13472000" />
+      <workItem from="1654567379706" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

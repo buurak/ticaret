@@ -1,14 +1,26 @@
 version: '3'
 
 services:
-  django:
-    container_name: ticaret
+  # django:
+  #   container_name: ticaret
+  #   build:
+  #       context: .
+  #       dockerfile: ./backend/Dockerfile
+  #   image: ticaret
+  #   ports:
+  #     - "8000:8000"
+  #   volumes:
+  #     - ./backend:/app
+  #   command: python manage.py runserver 0:8000
+
+  vue:
+    container_name: frontend
     build:
         context: .
-    image: ticaret
+        dockerfile: ./e-commerce/Dockerfile
+    image: frontend
     ports:
-      - "8000:8000"
+      - "8080:8080"
     volumes:
-      - .:/app
-    command: python manage.py runserver 0:8000
-    tty: true
+      - ./e-commerce:/app
+    command: npm install && npm run serve

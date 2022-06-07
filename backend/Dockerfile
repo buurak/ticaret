@@ -1,6 +1,6 @@
 FROM python:3.10
 
-COPY . ./app/
+COPY ./backend ./app/
 
 WORKDIR /app
 

@@ -2,7 +2,7 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">LeoJag E-Commerce</a>
+        <a class="navbar-brand" href="#">E-Commerce</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -19,6 +19,11 @@
             <li class="nav-item">
               <router-link class="nav-link active" aria-current="page" to="/"
                 >Home</router-link
+              >
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" aria-current="page" to="/order-history"
+                >Order History</router-link
               >
             </li>
           </ul>

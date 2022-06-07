@@ -4,6 +4,7 @@ import Product from "@/components/Product.vue";
 import Login from "@/components/Login.vue";
 import Register from "@/components/Register.vue";
 import Basket from "@/components/Basket.vue";
+import OrderHistory from "@/components/OrderHistory.vue"
 
 
 const routes = [
@@ -31,6 +32,11 @@ const routes = [
     path: "/basket",
     name: "Basket",
     component: Basket,
+  },
+  {
+    path: "/order-history",
+    name: "OrderHistory",
+    component: OrderHistory,
   }
 ];
 

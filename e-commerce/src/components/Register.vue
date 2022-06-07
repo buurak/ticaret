@@ -81,7 +81,7 @@ export default {
       }
 
       axios
-        .post("/api/register/", {
+        .post("http://127.0.0.1:8000/api/register/", {
           email: this.email,
           password: this.password,
           first_name: this.firstname,

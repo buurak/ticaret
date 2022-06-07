@@ -80,7 +80,7 @@ export default {
       }
 
       axios
-        .get("/api/products/", {
+        .get("http://127.0.0.1:8000/api/products/", {
           params: { category: category_string },
         })
         .then((response) => {
@@ -93,7 +93,7 @@ export default {
 
     getProducts() {
       axios
-        .get("/api/products/")
+        .get("http://127.0.0.1:8000/api/products/")
         .then((response) => {
           this.products = response.data;
         })
@@ -103,7 +103,7 @@ export default {
     },
     getProductCategories() {
       axios
-        .get("/api/product-categories/")
+        .get("http://127.0.0.1:8000/api/product-categories/")
         .then((response) => {
           this.categories = response.data;
         })

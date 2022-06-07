@@ -42,7 +42,7 @@ export default {
   methods: {
     getProduct() {
       axios
-        .get(`/api/product/${this.id}`)
+        .get(`http://127.0.0.1:8000/api/product/${this.id}`)
         .then((response) => {
           this.product = response.data;
         })
@@ -52,7 +52,7 @@ export default {
     },
     addToBasket(id) {
       axios
-        .post("/api/basket/", {
+        .post("http://127.0.0.1:8000/api/basket/", {
           email: this.email,
           id: id,
           quantity: 1,
